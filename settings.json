@@ -1,0 +1,57 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "breadcrumbs.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "git.ignoreMissingGitWarning": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "css.lint.unknownAtRules": "ignore",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.wordWrap": "on",
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.tree.indent": 22,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#008070"
+  },
+  "explorer.compactFolders": false,
+  "workbench.colorTheme": "Night Owl",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importLinebreak": ";\r\n",
+  "npm-intellisense.importDeclarationType": "const",
+
+  "window.zoomLevel": 1,
+  "editor.codeLens": true,
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": true,
+  "yaml.schemas": {
+    "file:///Users/alanibarra/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }
+}
